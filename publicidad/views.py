@@ -31,3 +31,12 @@ def surtidor(request):
 
 def bar(request):
 	return render(request, 'publicidad/baresYdiscotecas.html')
+
+def plazaTtefarina(request):
+	return render(request, 'publicidad/sector_publico/plazaTteFarina.html')
+
+def petropar(request):
+	return render(request, 'publicidad/surtidor/petropar.html')
+
+def brothers(request):
+	return render(request, 'publicidad/baresYdiscotecas/brothers.html')
